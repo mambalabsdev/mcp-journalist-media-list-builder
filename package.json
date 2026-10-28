@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-journalist-media-list-builder",
+  "version": "1.0.0",
+  "description": "MCP server for Journalist and Media List Builder. Find journalists who recently wrote about your topics from news bylines: name, outlet, author page, article count, and latest article as proof. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-journalist-media-list-builder": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "journalists",
+    "media-list",
+    "pr",
+    "press",
+    "reporters",
+    "apify",
+    "clay",
+    "outreach"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/journalist-media-list-builder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-journalist-media-list-builder"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-journalist-media-list-builder"
+}

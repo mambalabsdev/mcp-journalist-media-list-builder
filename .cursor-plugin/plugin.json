@@ -1,0 +1,31 @@
+{
+  "name": "mcp-journalist-media-list-builder",
+  "displayName": "Journalist and Media List Builder",
+  "version": "1.0.0",
+  "description": "MCP server for Journalist and Media List Builder. Find journalists who recently wrote about your topics from news bylines: name, outlet, author page, article count, and latest article as proof. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-journalist-media-list-builder",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "journalists",
+    "media-list",
+    "pr",
+    "press",
+    "reporters"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "journalists",
+    "media-list",
+    "pr",
+    "press",
+    "reporters"
+  ],
+  "mcpServers": ".mcp.json"
+}

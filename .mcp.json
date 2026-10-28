@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-journalist-media-list-builder": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-journalist-media-list-builder"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
