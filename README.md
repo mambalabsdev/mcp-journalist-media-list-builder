@@ -2,6 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-journalist-media-list-builder)](https://www.npmjs.com/package/@mambalabsdev/mcp-journalist-media-list-builder) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-journalist-media-list-builder)](https://github.com/mambalabsdev/mcp-journalist-media-list-builder/blob/main/LICENSE)
 
+<a href="https://mcprush.com/to/mcp-journalist-media-list-builder?ref=badge"><img width="380" height="200" src="https://mcprush.com/badge/mcp-journalist-media-list-builder/card.svg" alt="Journalist and Media List Builder MCP server" /></a>
+
 An MCP server for the Mamba Labs Journalist and Media List Builder actor on Apify. Give it the beats or topics you want press for. It finds recent news articles on each one, reads the byline on each article page, and returns one row per journalist and outlet: name, outlet, author page, how many matching articles they wrote, their latest one, and the article links as proof.
 
 ## What's Inside
