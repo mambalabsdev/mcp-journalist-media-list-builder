@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-journalist-media-list-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Journalist and Media List Builder. Find journalists who recently wrote about your topics from news bylines: name, outlet, author page, article count, and latest article as proof. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
